@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         sendSearch(view,message);
     }
 
-    /*public void locSearch(View view) {
-        //Ask for location permission
+    public void locSearch(View view) {
+        /*//Ask for location permission
         if (ContextCompat.checkSelfPermission(
                 this, Manifest.permission.ACCESS_FINE_LOCATION) ==
                 PackageManager.PERMISSION_GRANTED) {
@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
         }else {
             //directly ask for the permission.
             requestPermissions(new String[] { Manifest.permission.ACCESS_FINE_LOCATION },LOCATION_REQUEST_CODE);
-        }
-    }*/
+        }*/
+    }
 
     public void sendSearch(View view, String message) {
         Intent intent = new Intent(this, WeatherPage.class);
