@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="app_title">Ellie\'s Weather App</string>
+    <string name="footer1">Andrew \"Ellie\" Moffett</string>
+    <string name="footer2">z23480834</string>
+    <string name="edit_message">Enter City, State, or Zip Code</string>
+</resources>
